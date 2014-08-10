@@ -1,0 +1,170 @@
+"Resource/UI/HudAmmoWeapons.res"
+{
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"99999"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/ammo_blue_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"		"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+	}
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponLowAmmoImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"90"
+		"tall"			"45"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ammo_red_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"		"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+	}
+	"AmmoInClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClip"
+		"font"			"ZagBold48"
+		"fgcolor"		"0 255 0 255"
+		"xpos"			"0"
+		"ypos"			"0" // omp -- -9 Mac fix.
+		"zpos"			"1"
+		"wide"			"63"
+		"tall"			"56" // omp -- +18 Mac fix.
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%Ammo%"
+		
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"27" // omp -- -6 Mac fix.
+		"wide_minmode"	"63"
+		"tall_minmode"	"37" // omp -- +12 Mac fix.
+		
+	}		
+	"AmmoInClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClipShadow"
+		"font"			"ZagBold48"
+		"fgcolor"		"0 0 0 255"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"63"
+		"tall"			"56"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%Ammo%"
+		
+		"xpos_minmode"	"1"
+		"ypos_minmode"	"28"
+		"wide_minmode"	"63"
+		"tall_minmode"	"37"
+	}						
+	"AmmoInReserve"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserve"
+		"font"			"ZagBold24"
+		"fgcolor"		"255 255 255 255"
+		"xpos"			"70"
+		"ypos"			"18"
+		"zpos"			"7"
+		"wide"			"64"
+		"tall"			"33"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"%AmmoInReserve%"
+		
+		
+		"xpos_minmode"	"67"
+		"ypos_minmode"	"33"
+		"wide_minmode"	"64"
+		"tall_minmode"	"25"
+	}		
+	"AmmoInReserveShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserveShadow"
+		"font"			"ZagBold24"
+		"fgcolor"		"0 0 0 255"
+		"xpos"			"71"
+		"ypos"			"19"
+		"zpos"			"6"
+		"wide"			"64"
+		"tall"			"33"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"%AmmoInReserve%"
+		
+		
+		"xpos_minmode"	"68"
+		"ypos_minmode"	"34"
+		"wide_minmode"	"64"
+		"tall_minmode"	"25"
+	}									
+	"AmmoNoClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClip"
+		"font"			"ZagBold48"
+		"fgcolor"		"0 255 0 255"
+		"xpos"			"-18"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"130"
+		"tall"			"56"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"%Ammo%"
+		
+		
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"27"
+		"wide_minmode"	"91"
+		"tall_minmode"	"37"
+	}	
+	"AmmoNoClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClipShadow"
+		"font"			"ZagBold48"
+		"fgcolor"		"0 0 0 255"
+		"xpos"			"-16"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"130"
+		"tall"			"56"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"%Ammo%"
+		
+		
+		"xpos_minmode"	"1"
+		"ypos_minmode"	"28"
+		"wide_minmode"	"91"
+		"tall_minmode"	"37"
+	}									
+}
